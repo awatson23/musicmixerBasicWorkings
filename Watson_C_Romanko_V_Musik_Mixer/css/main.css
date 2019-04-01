@@ -1,0 +1,108 @@
+@charset "utf-8";
+/*CSS document*/
+
+.hidden
+{
+	display: none;
+}
+
+
+body
+{
+	background-color:#4F5DA9;;
+	font-family: 'Coiny', cursive;
+     font-family: 'VT323', monospace;
+     color: white;
+
+    
+}
+/*#vRobot 
+{
+	background-image: url(../assets/roboto_techno.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 120%;
+	width: 1000px;
+	height: 1000px;
+	margin-top: -400px;
+	
+
+}*/
+#siteContainer
+{
+	margin: 0 auto;
+	width: 980px;
+	
+
+}
+
+#head img
+{
+	/*width: 110%;*/
+	position: relative;
+}
+
+#head h2
+{
+	
+	font-size: 72px;
+	font-weight: bolder;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	font-family: 'VT323', monospace;
+
+}
+
+#head p
+{
+	
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: 'Coiny', cursive;
+
+}
+
+#power
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 50px;
+	text-align: center;
+
+}
+
+#power img
+{
+	width: 20%;
+}
+
+
+
+#power h2
+{
+	font-family: 'VT323', monospace;
+	font-size: 24px;
+
+
+}
+
+
+
+#robots
+{
+	/*margin-left: 80px;*/
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.blocker {
+	pointer-events: none;
+}
+
